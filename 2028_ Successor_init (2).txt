@@ -1,0 +1,327 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 28,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2028: Successor",
+            "summary": "It was supposed to be a return to normalcy. The incumbent president was narrowly reelected, despite his frail condition, under familiar promises to stop those who threatened America and Her democracy. Yet, at the cost of this, the American public has done nothing but further polarize, with the nation embroiled in a bitter partisan struggle. Gridlock has prevailed since the fateful 2022 Midterms, as whatever rotten, parasite filled pieces of hope and trust within the government collapsed with the President's resignation. <p> ◦ As President Harris continues Biden's fight to preserve the old institutions, she, despite the Republican Congress, must not allow the rot to continue to spread under its foundations. With the terror of the MAGA era finding its resurgence in Senator Vance, the Democrats try one last time to continue the facade of normality, They must attempt to adapt, or do nothing but attempt to cling onto whatever shreds of the past it can find, crying and screaming as wolves surround them.",
+            "image_url": "data:image/jpeg;base64,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",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "data:image/jpeg;base64,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",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2028: Successor"
+    }
+]
+
+campaignTrail_temp.credits = "Whamwamwmw"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Kamala",
+            "last_name": "Harris",
+            "election": 20,
+            "party": "Democratic",
+            "state": "California",
+            "priority": 1,
+            "description": "President Kamala Harris. The words feel foreign and don't fit in your mouth, you feel undeserving of such a title, which you have been nothing but a figurehead for your entire time in the executive branch. When Biden's standing in the party collapsed following his disastrous debate performance, You stood behind him. When Biden's approvals fell even further after the State of the Union, he expected you to stand behind him. But this time, with there being no way out of the upcoming disaster in the midterms, and the party in full revolt, you conceded to the baying mob. Your threat to invoke the 25th led to his historical resignation in July. <p> The guilt you feel under weighs the burden that has been thrust upon you. His staffers never meant you to be his successor, especially like this. As 2028 rushes closer and closer, and it seems everything you have worked so hard for will be swept away under the tide of Trumpism.",
+            "color_hex": "#1b1b6f",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/7Bz6wJz.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "Josh",
+            "last_name": "Shapiro",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#1b1b6f",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/nMM3EeB.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Josh Shapiro, is, for all purposes, the most generic Vice Presidential candidate one could choose. A popular swing state governor, a centrist in every sense of the word. Nearly as reviled as the likes of Newsom  and your predecessor himself among the left flank, he does nothing to appeal to the younger, more idealistic of your base. With a moderate to almost conservative reputation as governor, he would have experience working along bipartisan lines. A skill that, with an increasingly uncooperative Republican Party, becomes more obsolete by the day. <p> But that doesn't matter, does it? You know why he's here. After the  party and media overthrew Biden, they want to extort you for all you have. They know you're desperate, you needed someone that the Republican Senate would let you pick. Most importantly, Shapiro is the way the party doesn't leave you for dead, the only way for it's corporate backers to continue sending checks. Without them, you are cast into the unknown.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "JD",
+            "last_name": "Vance",
+            "election": 20,
+            "party": "Republican",
+            "state": "Senator",
+            "priority": 1,
+            "description": "-",
+            "color_hex": "#b30000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Marco",
+            "last_name": "Rubio",
+            "election": 20,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#b30000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "-",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Mike",
+            "last_name": "Lindell",
+            "election": 20,
+            "party": "Patriot",
+            "state": "Minnesota",
+            "priority": 1,
+            "description": "-",
+            "color_hex": "#8c00ff",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "RFK",
+            "last_name": "Jr.",
+            "election": 20,
+            "party": "Patriot",
+            "state": "somewhere idk",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#8c00ff",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50004,
+        "fields": {
+            "first_name": "Jill",
+            "last_name": "Stein",
+            "election": 20,
+            "party": "Green",
+            "state": "Somewhjereidk",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00990a",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50005,
+        "fields": {
+            "first_name": "Cornel",
+            "last_name": "West",
+            "election": 20,
+            "party": "Green",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00990a",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 111204,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 201
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 122866,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 300
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 149854,
+        "fields": {
+            "candidate": 50004,
+            "running_mate": 50005
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            201,
+            200,
+            202,
+            50004
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            201,
+            200,
+            202,
+            50004
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#000000",
+    "windowColor": "#ffffff",
+    "containerColor": "#000000",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://i.imgur.com/PdHAfQD.png",
+    "backgroundImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAACICAMAAADNhJDwAAAAA1BMVEUAAACnej3aAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA3A8UYAAEH59SKAAAAAElFTkSuQmCC",
+    "endingTextColor": "#000000",
+    "customQuote": "\"What Can Be, Unburdened By What Has Been\"",
+    "gameTitle": "[ Successor ]"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>[ Successor ]</h2><font id="wittyquote" size="4" color="white"><em>"What Can Be, Unburdened By What Has Been"</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+document.getElementById("header").src = "https://i.imgur.com/PdHAfQD.png";
+
+document.body.background = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAACICAMAAADNhJDwAAAAA1BMVEUAAACnej3aAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA3A8UYAAEH59SKAAAAAElFTkSuQmCC";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+//#endcode
